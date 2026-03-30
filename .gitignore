@@ -1,0 +1,25 @@
+.DS_Store
+.claude/
+**/.claude/
+.nested_git_backups/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local datasets and training artifacts
+artifacts/
+checkpoints/
+**/results/generated/
+*.pt
+*.pth
+*.ckpt
+*.ptz
+*.npz

@@ -1,0 +1,26 @@
+makemore bigram smoke run
+data=makemore/names.txt
+names=32033 train=25626 val=3203 test=3204 vocab=27
+smoothing=1 seed=2147483647
+val_nll=2.4577 test_nll=2.4554
+samples:
+- t
+- y
+- josa
+- at
+- elhienan
+- klyen
+- likahaari
+- raia
+- gelke
+- aithe
+- h
+- dir
+- ty
+- ly
+- a
+- nlaen
+- kyt
+- elae
+- mavi
+- shrarn

@@ -1,0 +1,10 @@
+micrograd scalar gradient check
+forward g.data=24.704082
+autograd dg/da=138.833819 finite_diff=138.833819
+autograd dg/db=645.577259 finite_diff=645.577260
+
+micrograd toy MLP fit
+loss_start=31.311102 loss_end=0.000644
+predictions=1.016, -0.996, -0.999, 0.984
+
+status=passed

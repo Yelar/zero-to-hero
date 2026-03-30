@@ -1,0 +1,15 @@
+tiny char GPT smoke run
+data=gpt-from-scratch/input.txt
+device=mps vocab_size=65 params=0.112M
+config={"batch_size": 16, "block_size": 64, "max_iters": 50, "n_embd": 64, "n_head": 4, "n_layer": 2}
+step=0000 train_loss=4.1649 val_loss=4.1648 elapsed_s=0.8
+step=0025 train_loss=3.1522 val_loss=3.2581 elapsed_s=2.3
+step=0050 train_loss=2.8407 val_loss=2.8444 elapsed_s=2.6
+sample:
+
+!e h;anmos.er p rmGentf nuN'hh nh  kevlha-s prolaRile
+Awepr wo'sennoidoit s!gxags, d tlnd shawe ti-dlnl odar tht hotdRt.:
+GtenAolasor waleuf s ar amys The pawddyrn, tm va h:
+:Sedorirn amk FleZot  beran rF Nyu?
+Plihetan fs f  ehmMidqha tdlyy; h.neo-tolon teo'thouofi&lnd inwothee$.ivilaiG mince,hUT ht
+checkpoint=gpt-from-scratch/results/generated/tiny_char_gpt.pt
